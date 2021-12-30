@@ -1,0 +1,56 @@
+.invitePicture {
+  width: 100%;
+  max-width: 1200px;
+  height: 500px;
+  text-align: center;
+  margin: 20px auto;
+  object-fit: cover;
+  object-position: 60% top;
+}
+
+@media screen and (min-width: 1200px) {
+  .invitePicture {
+    border-radius: 30px;
+  }
+}
+
+.weddingNames {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.weddingNames .personName {
+  font-family: serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+.weddingNames .and {
+  font-family: cursive;
+  font-weight: 100;
+}
+
+.weddingDates {
+  text-align: center;
+  font-family: cursive;
+  font-size: 1.5em;
+  margin: 80px 0 80px 0;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.divider {
+  width: 80%;
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.introText {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.75);
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}

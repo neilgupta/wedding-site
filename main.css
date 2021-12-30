@@ -1,0 +1,160 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  line-height: 1.4em;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  padding: 5rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.invitePicture {
+  width: 100%;
+  max-width: 1200px;
+  height: 500px;
+  text-align: center;
+  margin: 20px auto;
+  object-fit: cover;
+  object-position: center center;
+}
+
+@media screen and (min-width: 1200px) {
+  .invitePicture {
+    border-radius: 30px;
+  }
+}
+
+.hotelPicture {
+  object-position: center bottom;
+}
+
+.eventDate {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.75);
+  font-weight: normal;
+  font-size: 1.2em;
+  margin-top: 50px;
+  font-family: cursive;
+}
+.eventLocation {
+  text-align: center;
+  font-weight: 300;
+  color: #777;
+  font-size: 1em;
+  margin-bottom: 40px;
+}
+.event {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.eventName {
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+  width: 50%;
+  text-align: right;
+  padding-right: 40px;
+  padding-bottom: 10px;
+}
+.eventTime {
+  color: rgba(0, 0, 0, 0.75);
+  font-weight: 300;
+}
+.eventType {
+  font-weight: bold;
+}
+.eventDetails {
+  width: 50%;
+  padding-left: 40px;
+  padding-bottom: 10px;
+}
+.lastEvent {
+  padding-bottom: 0;
+}
+@media screen and (max-width: 500px) {
+  .eventName {
+    width: 40%;
+    padding-right: 20px;
+  }
+  .eventDetails {
+    width: 60%;
+    padding-left: 20px;
+  }
+}
+
+.note {
+  text-align: center;
+  margin: 50px;
+  color: #777;
+  font-size: 0.9em;
+}
+
+.centered {
+  text-align: center;
+  margin: 50px 0;
+}
+.marginBelow {
+  margin-bottom: 90px;
+}
+
+.section {
+  padding: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.section h2 {
+  text-align: center;
+  font-weight: 100;
+  font-family: serif;
+  font-size: 2em;
+  margin-bottom: 30px;
+  line-height: 1.3em;
+}
+
+.ctaBtn {
+  text-decoration: none;
+  font-weight: 600;
+  padding: 12px 30px;
+  border-radius: 30px;
+  transition: background-color 0.4s ease-in-out, border-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+.secondary {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+.secondary:hover {
+  background-color: #7B61FF;
+  border-color: #7B61FF;
+  color: #fff;
+  cursor: pointer;
+}
+.primary {
+  color: #fff;
+  background-color: #000;
+}
+.primary:hover {
+  background-color: #7B61FF;
+  cursor: pointer;
+}
+
+.question {
+  font-weight: bold;
+  margin-top: 50px;
+}
+.answer {
+  margin-bottom: 30px;
+}

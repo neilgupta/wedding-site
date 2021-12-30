@@ -1,0 +1,21 @@
+.invitePicture {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 20px auto;
+  object-fit: cover;
+  object-position: 60% 20%;
+}
+
+.h1 {
+  font-size: 8vw;
+  font-family: 'Italianno', serif;
+}
+.h3 {
+  font-size: 5vw;
+  font-family: 'Italianno', serif;
+}
+.h4 {
+  font-size: 4vw;
+  font-family: 'Italianno', serif;
+}

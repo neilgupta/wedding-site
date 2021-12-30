@@ -1,0 +1,30 @@
+.form {
+  text-align: center;
+}
+.code {
+  font-size: 1.2em;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #e0e1e4;
+}
+.submit {
+  color: #fff;
+  font-weight: 600;
+  padding: 5px 15px;
+  vertical-align: center;
+  background-color: #0a2540;
+  border: 1px solid #0a2540;
+  border-radius: 5px;
+  font-size: 1.2em;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.submit:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  background-color: #7B61FF;
+  border-color: #7B61FF;
+  cursor: pointer;
+  text-decoration: none !important;
+  color: #fff;
+}
